@@ -28,16 +28,16 @@ El test se corre con el siguiente comando:
          assert.equal(result, 2);
       });
     });
-  })
+    })
 
-  describe('Testing should function: ', function() {
-      describe('Check addTest Function', function(){
-        it('Check the returned value using : result.should.be.equal(value): ', function() {
-           result = calculator.addTest(1,1);
-           result.should.be.equal(2);
+    describe('Testing should function: ', function() {
+        describe('Check addTest Function', function(){
+          it('Check the returned value using : result.should.be.equal(value): ', function() {
+             result = calculator.addTest(1,1);
+             result.should.be.equal(2);
+          })
         })
       })
-    })
 
     describe('Testing expect function: ', function() {
       describe('Check addTest Function', function(){
