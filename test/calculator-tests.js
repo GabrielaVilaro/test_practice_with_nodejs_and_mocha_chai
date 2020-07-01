@@ -32,7 +32,7 @@ describe('Testing should function: ', function() {
   })
 
   describe('Testing assert function: ', function() {
-    describe('Check addTest Function', function(){
+    describe('Check subtraction Function', function(){
       it('Check the returned value using : assert.equal(value, value): ', function() {
          result = calculator.subtraction(5,4);
          assert.equal(result, 1);
