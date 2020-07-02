@@ -5,8 +5,15 @@ Primer test básico en JavaScript , usando Node Js, Mocha y Chai.
 
 Para correr el test se requeire Node Js instalado y el manager de paquetes npm, ademas de los frameworks Mocha.js y Chai.js.
 
+      npm init
+      
+      npm i mocha
+      
+      npm i chai
+
 El test se corre con el siguiente comando:
-  npm test
+
+      npm test
  
  Explicación:
  
